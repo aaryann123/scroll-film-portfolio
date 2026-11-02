@@ -1,0 +1,161 @@
+{
+  "name": "Your Name",
+  "title": "Your Name — Built the old way",
+  "mark": "YN",
+  "tagline": "Built the old way. Helped by the new one.",
+  "email": "hello@example.com",
+  "links": [
+    {
+      "label": "GitHub",
+      "href": "https://github.com/your-handle"
+    }
+  ],
+  "openers": [
+    "open-drape",
+    "open-polish",
+    "open-crowd"
+  ],
+  "shots": [
+    "chassis",
+    "panels",
+    "panels-b",
+    "wheels",
+    "polish",
+    "driver",
+    "start",
+    "race",
+    "race-b",
+    "horizon"
+  ],
+  "frames": {
+    "open-drape": 95,
+    "chassis": 95,
+    "panels": 95,
+    "panels-b": 95,
+    "wheels": 95,
+    "polish": 95,
+    "driver": 45,
+    "start": 77,
+    "race": 95,
+    "race-b": 49,
+    "horizon": 95,
+    "open-polish": 95,
+    "open-crowd": 95
+  },
+  "halftone": {},
+  "chapters": [
+    {
+      "id": "bench",
+      "label": "The Bench",
+      "headline": "Built the old way.\nHelped by the new one.",
+      "body": "I'm a full-stack engineer. I write TypeScript on the edge, ship data pipelines, and read every line before it merges. The assistant drafts. The craft is still mine.",
+      "shots": [
+        "chassis"
+      ]
+    },
+    {
+      "id": "foundations",
+      "label": "The Foundations",
+      "headline": "Cut by hand,\nsquare on every side.",
+      "body": "A computer science degree, then years of TypeScript, React, edge functions and Postgres. The stack changes. Knowing why a query is slow does not.",
+      "items": [
+        "TypeScript · React · Remix · Vite",
+        "Cloudflare Workers · D1 · Durable Objects · Convex",
+        "Python · PyTorch · scikit-learn",
+        "Postgres · SQLite · pgvector"
+      ],
+      "shots": [
+        "panels"
+      ]
+    },
+    {
+      "id": "dayjob",
+      "label": "The Day Job",
+      "headline": "Every panel fitted\nby the people who drew it.",
+      "body": "Describe your current role here: what you own, who depends on it, and what you shipped.",
+      "items": [
+        "A system you own end to end",
+        "A hard problem you solved",
+        "Something other teams build on",
+        "A result you can measure"
+      ],
+      "shots": [
+        "panels-b",
+        "wheels"
+      ]
+    },
+    {
+      "id": "sidebench",
+      "label": "The Side Bench",
+      "headline": "Small tools,\nno dependencies.",
+      "body": "Evenings go to tools I wanted to exist. Most are one file. None phone home.",
+      "items": [
+        "A system monitor in one file, read straight from the kernel",
+        "A menu-bar timer that interrupts you with one stretch",
+        "A now-playing pill that drops from the menu bar",
+        "A game-night scoreboard: one HTML file plus one Worker",
+        "A local search over my own notes, indexed into pgvector"
+      ],
+      "shots": [
+        "polish"
+      ]
+    },
+    {
+      "id": "method",
+      "label": "The Method",
+      "headline": "I draw the plan.\nThe apprentice drafts.",
+      "body": "Every feature starts as a written design. The assistant writes the first pass. I read it, cut what isn't needed, and the tests decide what merges. Nothing ships that I couldn't have written myself, it just ships sooner.",
+      "items": [
+        "Design first, in writing",
+        "Draft with the assistant",
+        "Read every line, delete most of the cleverness",
+        "Tests gate the merge"
+      ],
+      "shots": [
+        "driver"
+      ]
+    },
+    {
+      "id": "door",
+      "label": "The Road",
+      "headline": "It starts.\nIt runs.",
+      "body": "If you're building something that has to work for years, not weeks, I'd like to hear about it.",
+      "shots": [
+        "start",
+        "race",
+        "race-b"
+      ]
+    },
+    {
+      "id": "questions",
+      "label": "Questions",
+      "headline": "Asked before\nwe start.",
+      "body": "The short answers. The long ones are a call away.",
+      "qa": [
+        {
+          "q": "What do you actually build?",
+          "a": "Full-stack products on TypeScript: React front ends, Cloudflare Workers and Durable Objects on the edge, Postgres or D1 underneath, and LLM features where they earn their place."
+        },
+        {
+          "q": "How do you use AI in the work?",
+          "a": "As the apprentice. I write the design, it drafts, I read every line, and tests decide what merges. Nothing ships that I could not have written myself."
+        },
+        {
+          "q": "Remote or on site?",
+          "a": "Remote, with overlap for US time zones. On site for kickoffs when it helps."
+        },
+        {
+          "q": "Availability?",
+          "a": "Open to full-time roles and to well-scoped contracts. Reply within a week, always."
+        }
+      ],
+      "shots": [
+        "horizon"
+      ]
+    }
+  ],
+  "continuous": [
+    "panels-b",
+    "race-b"
+  ]
+}

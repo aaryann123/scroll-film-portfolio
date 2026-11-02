@@ -1,0 +1,31 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+
+# Your real copy: overrides content.json locally, never committed
+content.local.json
+
+# Planning scratch
+docs/superpowers/
+.superpowers/
+
+# Rendered media. Only the poster stills (public/films/<shot>.jpg) are committed;
+# the scrubbed frame sequences are ~57 MB and are rebuilt by the art pipeline.
+public/films/*/
+art/**/*.png
+art/**/*.mp4
+art/**/*.jpg
+art/car/_last/
+art/car/v1/
+art/clips/v1/
+
+# First draft of the film and one-off experiments (superseded by art/car and art/forge)
+art/gen.sh
+art/prompts.txt
+art/style.txt
+art/style_still.txt
+art/motion.txt
+art/clips/spike*.sh
+art/car/apply.py
+art/car/queue[234].sh

@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5757 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --port 5757",
+    "test": "node check.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/fraunces": "^5.1.0",
+    "@fontsource-variable/geist": "^5.1.0",
+    "@fontsource-variable/geist-mono": "^5.1.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}
